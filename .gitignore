@@ -1,0 +1,35 @@
+# =====================
+# Node.js / Backend
+# =====================
+# Node modules
+server/node_modules/
+
+# Environment variables
+server/.env
+
+# Logs
+server/logs/
+server/*.log
+
+# Build files
+server/dist/
+
+# =====================
+# Frontend / React / Vite
+# =====================
+# Node modules
+client/node_modules/
+
+# Environment variables
+client/.env
+
+# Build output
+client/dist/
+client/build/
+
+# Logs
+client/*.log
+
+# Misc
+.DS_Store
+*.swp

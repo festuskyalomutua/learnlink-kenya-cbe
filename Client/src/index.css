@@ -1,0 +1,44 @@
+/* index.css for LearnLink Kenya (recommended: only for global styles & Tailwind imports) */
+
+/* Import Tailwind CSS base styles (if using Tailwind!) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure box-sizing is consistent */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default link underline */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Scrollbar styles (optional) */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #ede9fe;
+}
+::-webkit-scrollbar-thumb {
+  background: #a5b4fc;
+  border-radius: 8px;
+}
+
+/* Global utility classes (optional) */
+.text-center {
+  text-align: center;
+}
+.text-indigo {
+  color: #6366f1;
+}
+
+/* Other global resets or styles can go here */

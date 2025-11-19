@@ -1,0 +1,21 @@
+server/
+  server.js
+  config/
+    db.js
+  routes/
+    auth.js
+    assessments.js
+    resources.js
+    progress.js
+  controllers/
+    authController.js
+    assessmentController.js
+    resourceController.js
+    progressController.js
+  models/
+    User.js
+    Assessment.js
+    Progress.js
+  middleware/
+    authMiddleware.js
+  uploads/ (or better: upload to S3/Cloud)
