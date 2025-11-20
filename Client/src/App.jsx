@@ -89,11 +89,6 @@ function AppContent() {
     path="/learners"
     element={user ? <Learners /> : <Navigate to="/login" />}
   />
-
-  <Route 
-    path="/" 
-    element={<Navigate to={user ? "/dashboard" : "/login"} />} 
-  />
   <Route 
   path="/upload-resource" 
   element={user ? <ResourceUpload /> : <Navigate to="/login" />} 
