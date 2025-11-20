@@ -1,5 +1,3 @@
-client/src/components/Dashboard.jsx:
-
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { Users, Award, BookOpen, TrendingUp } from 'lucide-react';

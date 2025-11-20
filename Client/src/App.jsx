@@ -99,6 +99,7 @@ function AppContent() {
   element={user ? <ResourceUpload /> : <Navigate to="/login" />} 
 />
 </Routes>
+</>
   );
 }
 
