@@ -105,6 +105,7 @@ The frontend will run on http://localhost:5173.
 Deployment
 
 Backend: Deploy the server folder to platforms like Render, Railway, Heroku, or your own VPS.
+         https://learnlink-backend-ter4.onrender.com
 
 Frontend: Deploy the client folder to Vercel, Netlify, or similar hosting.
 
